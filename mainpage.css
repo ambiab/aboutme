@@ -48,5 +48,9 @@ h2 {
 .introduction {
     font-family: 'Itim', cursive;
     text-align: center;
-    display: block;
+    display: wrap;
+    width: 650px;
+    margin: auto;
+    border-style: dashed;
+    padding: 10px;
 }

@@ -49,8 +49,30 @@ h2 {
     font-family: 'Itim', cursive;
     text-align: center;
     display: wrap;
-    width: 650px;
-    margin: auto;
+    width: 750px;
+    margin: 0 auto 30px auto;
     border-style: dashed;
     padding: 10px;
+}
+
+.container {
+    font-family: 'Itim', cursive;
+    text-align: right;
+    display: wrap;
+    max-width: 650px;
+    margin: 0 auto 30px auto;
+    border-style: double; 
+    padding: 10px;
+    
+}
+
+.container img {
+    max-width: 650px;
+}
+
+h3 {
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 5px;
+    font-size: 20px;
 }

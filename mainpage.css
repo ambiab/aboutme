@@ -4,10 +4,7 @@ body {
 
 header {
     background-color: rgb(10, 41, 92);
-    text-align: center;
-    margin: 0;
-    padding: 5%;
-    position: relative    
+    text-align: right;
 }
 
 h1 {
@@ -17,12 +14,7 @@ h1 {
 }
 
 .menunav {
-    position: absolute;
-    bottom: 0;
-    width: 88%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
+    padding: 1%;
 }
 
 li {

@@ -20,17 +20,20 @@ header {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
-    font-family: 'Caveat';
+    font-family: 'Fira Mono', monospace;
     text-align: left;
+    margin-left: 10%;
+    padding-top: 10%;
 }
 
 h2 {
-    font-family: 'Caveat', cursive;
-    font-size: 40px;
-    text-align: center;
+    font-family: 'Fira Mono', monospace;
+    font-size: 20px;
+    text-align: left;
     color: rgb(255, 255, 255);
+    margin-left: 10%;
 }
 
 .menunav {
@@ -52,7 +55,7 @@ li {
 }
 
 li a {
-    font-family: 'Itim', cursive;
+    font-family: 'Fira Mono', monospace;
     font-size: 20px;
     padding: 10px;
     color: rgb(255, 255, 255);

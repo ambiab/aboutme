@@ -3,18 +3,27 @@ body {
 }
 
 header {
-    background-color: rgb(10, 41, 92);
     text-align: right;
+    background: linear-gradient(to left, #005c97, #363795);
 }
 
 h1 {
     font-size: 60px;
-    color: rgb(250, 252, 155);
-    font-family: 'Caveat', cursive;
+    color: rgb(255, 255, 255);
+    font-family: 'Caveat';
+    text-align: center;
 }
 
 .menunav {
-    padding: 1%;
+    padding: 1px;
+    color: rgb(255, 255, 255)
+}
+
+section {
+    padding: 1px;
+    background: linear-gradient(to left, #005c97, #363795);
+    background-size: cover;
+    min-height: 100vh;
 }
 
 li {

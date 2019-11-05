@@ -12,6 +12,21 @@ header {
     color: rgb(255, 255, 255)
 }
 
+li {
+    list-style-type: none;
+    display: inline;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+li a {
+    font-family: 'Fira Mono', monospace;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
 .landing {
     padding: 1px;
     background: linear-gradient(to left, #005c97, #363795);
@@ -29,39 +44,21 @@ h1 {
 }
 
 h2 {
-    font-family: 'Fira Mono', monospace;
-    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
     text-align: left;
     color: rgb(255, 255, 255);
     margin-left: 10%;
 }
 
-.menunav {
-    padding: 1px;
-    color: rgb(255, 255, 255)
-}
-
-section {
-    padding: 1px;
-    background: linear-gradient(to left, #005c97, #363795);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-li {
-    list-style-type: none;
-    display: inline;
-    justify-content: center;
-}
-
-li a {
+.description {
     font-family: 'Fira Mono', monospace;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 19px;
     color: rgb(255, 255, 255);
-    text-decoration: none;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 1%;
 }
-
 .introduction {
     font-family: 'Itim', cursive;
     text-align: center;

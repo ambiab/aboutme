@@ -84,12 +84,14 @@ h2 {
 
 .thesource {
     height: auto;
-    width: 150%;
+    width: 170%;
+    border-radius: 5%;
 }
 
 .projdesc {
     text-align: center;
     margin: 90px 90px;
+    padding: 30px 0px 0px 0px;
 }
 
 .overlay {
@@ -101,7 +103,8 @@ h3 {
     text-decoration: underline;
     padding-left: 5px;
     font-size: 40px;
-    font-family: 'Fira Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
 }
 
 h4 {

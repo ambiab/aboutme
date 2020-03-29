@@ -69,26 +69,31 @@ h2 {
     padding: 10px;
 }
 
-.container {
-    font-family: 'Itim', cursive;
-    text-align: center;
-    display: wrap;
-    max-width: 300px;
-    margin: 60px 80px;
-    border-style: double; 
-    padding: 10px;
-    
+.project1 {
+    display: flex;
+    margin: 20px;
 }
 
-.container img {
-    max-width: 650px;
+.title1{
+    font-family: 'Itim', cursive;
+    text-align: center;
+    width: auto;
+    margin: 60px 80px;
+    padding: 10px;
+}
+
+.thesource {
+    height: auto;
+    width: 150%;
 }
 
 .projdesc {
     text-align: center;
-    display: wrap;
-    margin: 60px 80px;
-    padding: 10px;
+    margin: 90px 90px;
+}
+
+.overlay {
+    position: absolute;
 }
 
 h3 {
@@ -101,4 +106,5 @@ h3 {
 
 h4 {
     font-size: 20px;
+    position: absolute;
 }

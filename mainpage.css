@@ -71,10 +71,10 @@ h2 {
 
 .container {
     font-family: 'Itim', cursive;
-    text-align: right;
+    text-align: center;
     display: wrap;
-    max-width: 650px;
-    margin: 0 auto 30px auto;
+    max-width: 300px;
+    margin: 60px 80px;
     border-style: double; 
     padding: 10px;
     
@@ -84,9 +84,21 @@ h2 {
     max-width: 650px;
 }
 
+.projdesc {
+    text-align: center;
+    display: wrap;
+    margin: 60px 80px;
+    padding: 10px;
+}
+
 h3 {
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
     padding-left: 5px;
+    font-size: 40px;
+    font-family: 'Fira Mono', monospace;
+}
+
+h4 {
     font-size: 20px;
 }
